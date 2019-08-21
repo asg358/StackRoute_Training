@@ -1,0 +1,78 @@
+.container-fluid{
+
+font-family:helvetica sans-serif;
+	 
+}
+
+header{
+
+position:sticky;
+top:0;
+
+}
+
+header h1{
+
+color: white;
+background:#6699cc; 
+
+}
+
+h2{
+
+color:#6699cc;
+
+}
+
+nav{
+
+
+
+}
+
+nav li{
+
+display: inline;
+font-size: 25px;
+}
+
+footer{
+
+padding-top: 40px;
+border-top: 4px solid #6699cc;
+
+}
+
+footer li{
+
+display: inline;	
+
+}
+
+.himage{
+
+background-image:url("../img/cot.jpeg");
+height: 400px;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+margin-bottom: 20px;
+
+}
+
+.box{
+
+}
+
+p{
+
+text-align: justify;
+
+}
+
+.col3 img{
+
+height:40%;
+width: 100%;
+ 
+}

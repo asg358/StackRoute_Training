@@ -1,0 +1,137 @@
+.wrapper{
+
+font-family: Helvetica;
+
+}
+
+header{
+position:sticky;
+top:0;
+background:#6699cc; 
+}
+
+nav{
+
+text-align: right;
+
+}
+
+nav li{
+
+display: inline;
+
+}
+
+nav li a{
+
+text-decoration:none;
+color: white;
+font-size: 20px;
+
+}
+
+header h1{
+
+text-align: left;
+color: white;
+
+}
+
+.column11,.column12,.column13{
+
+height: 200px;
+	
+}
+
+.column21{
+
+
+height: 300px;
+
+}
+
+.column31,.column32,.column33{
+
+display: inline-block;
+height: 100px;
+
+}
+
+footer{
+
+padding-top: 40px;
+border-top: 4px solid #6699cc;
+display: inline-block;
+
+}
+
+.himage{
+
+background-image:url("img/cot.jpeg");
+height: 300px;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+margin-bottom: 20px;
+
+}
+
+.htext p{
+
+text-align:center; 
+ 
+}
+
+p{
+
+text-align: justify;
+margin-bottom: 10px;	
+}
+
+h2{
+
+margin-bottom: 0px;
+color: #6699cc;
+
+}
+.htext{
+
+height: 200px;
+text-align:center;
+color: black;
+
+}
+.site-links li{
+
+display: inline;
+
+}
+
+.site-links li a{
+
+text-decoration: none;
+
+}
+
+@media screen and (max-width: 600px) {
+
+	.himage {
+    
+	display: none;
+  
+  	}
+	
+	nav li{
+  
+	float:left;
+
+	}
+  
+	.container_12{
+
+	width: 40%;
+  
+	}
+}
+
+
